@@ -1,0 +1,27 @@
+body {
+    background-color : #8ef5b7;
+}
+h1 {
+    font-family : "monospace", monaco;
+}
+h3 {
+    font-family : "Lucida Console", monospace;
+}
+p {
+    font-family : "monospace", courier new;
+}
+
+.category {border-radius: 50%;}
+
+#cartBtn {
+    position : absolute;
+    top : 0;
+    right : 0;
+}
+
+.backBtn {
+    position : absolute;
+    top : 0;
+    right : 0;
+    content : "U+021E5";
+}

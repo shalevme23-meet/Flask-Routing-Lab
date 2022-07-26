@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask Project</title>
+</head>
+<body>
+    <h1>Suprez</h1>
+    <button id="cartBtn"><a href="/cart/">Go to Cart</a></button>
+
+    <h3>Our Products</h3>
+
+    <p>
+        Suprez is the future! instead of foraging and hunting for your witchy things, everything is now online!
+    </p>
+
+    <a href="/dragonling/"><button class="category"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paw-print.svg/2124px-Paw-print.svg.png"
+                 width="100" height="100"></img></button></a>
+    <br>
+    <img src="https://i.pinimg.com/originals/be/85/39/be8539afa1df984790870cc6a3f69349.jpg" width="200" height="200"></img>
+    <img src="https://i.pinimg.com/originals/4f/6f/c6/4f6fc65aacd6eadce01035be920a7ca5.jpg" width="200" height="200"></img>
+    <img src="https://thumbs.dreamstime.com/b/empty-cauldron-white-968917.jpg" width="200" height="200"></img>
+    <img src="https://i.pinimg.com/736x/85/c0/c8/85c0c8342c60406e76c0d52d818d51a3.jpg" height="200"></img>
+    <img src="https://monikazagrobelna.com/wp-content/uploads/2020/03/shybaby-19.jpg" height="200"></img>
+
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</body>
+</html>
