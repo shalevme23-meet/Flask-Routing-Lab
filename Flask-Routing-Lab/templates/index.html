@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask Project</title>
+</head>
+<body>
+    <center>
+    <h1>Suprez</h1>
+    </center>
+    <button id="cartBtn"><a href="/cart/">Go to Cart</a></button>
+
+    <h3>Our Products</h3>
+
+    <p>
+        Suprez is the future! instead of foraging and hunting for your witchy things, everything is now online!
+    </p>
+    <br><br><br><br><br><br><br><br><br>
+    <center>
+    <a href="/category/animal/"><button class="category"><img src="static/paw_symbol.png"
+                 width="100" height="100"></img></button></a>
+    <a href="/category/potion/"><button class="category"><img src="static/potion_symbol.png"
+             width="100" height="100"></img></button></a>
+    <a href="/category/material/"><button class="category"><img id="flower"src="static/flower_symbol1.png"
+                 width="100" height="100"></img></button></a>
+    </center>
+
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</body>
+</html>

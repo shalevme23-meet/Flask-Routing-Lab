@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase</title>
+</head>
+<body>
+    <img src="https://monikazagrobelna.com/wp-content/uploads/2020/03/shybaby-19.jpg" height="500"></img>
+    <h1>Dragon Familiar</h1>
+    <a href={{url_for('hello_world')}}><button class="backBtn">Back</button></a>
+    <br>
+    <p>
+        This Dragonling was found in the wilds of the Andromedean Forest, of excellent quality and value.
+    </p>
+    <br>
+    <h3>PRICE: 1.200.000 $</h3>
+    <br>
+    <button onclick="add_to_cart()">PURCHASE</button>
+
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</body>
+</html>

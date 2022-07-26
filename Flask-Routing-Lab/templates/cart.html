@@ -5,6 +5,21 @@
     <title>Cart</title>
 </head>
 <body>
+    <center><h1>My Cart</h1></center>
+    <a href={{url_for('hello_world')}}><button class="backBtn">Back</button></a>
+    <img src="https://i.pinimg.com/originals/4f/6f/c6/4f6fc65aacd6eadce01035be920a7ca5.jpg" width="200" height="200"></img>
+    <h3>Life Elixir</h3>
+    <p>
+        This fabled elixir is said to give you back 20 years of your life!
+    </p>
+    <br>
+    <img src="https://thumbs.dreamstime.com/b/empty-cauldron-white-968917.jpg" width="200" height="200"></img>
+    <h3>Cauldron of the Black Moon Coven</h3>
+    <p>
+        An excellent quality cauldron for intermediate-level hedge witches and below, not to be used for high level elixirs.
+    </p>
 
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
 </body>
 </html>
